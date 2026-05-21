@@ -94,21 +94,17 @@ Note: "full system" here means a bounded engineering system, not a full plant. T
 - **Language:** C#
 - **Environment:** Visual Studio Community
 - **Interface to Caesar II:** neutral file (read, modify, write)
-- **Existing foundation:** slug force calculator — already parses neutral files, segments topology, understands branches and tees, calculates force vectors
-
-The slug force calculator is step zero. The CEM is built on top of it.
 
 ---
 
 ## 6. IP considerations
 
-Conduit must be built as a clean-room implementation. No proprietary project files, employer data, or work-time development may be used. The slug force calculator's ownership status relative to Adrian's employment contract must be reviewed before commercialisation.
+Conduit must be built as a clean-room implementation. No proprietary project files, employer data, or work-time development may be used.
 
 ---
 
 ## 7. Open questions
 
-- Exact status of the slug force calculator re: employment contract
 - First external user — consultant contact not yet approached
 - Synthetic or public dataset for validation without proprietary files
 - Caesar II licence access for development and testing
